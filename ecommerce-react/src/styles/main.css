@@ -1,6 +1,10 @@
-/* RESET GENERAL */
 
-* {
+
+/* RESET GLOBAL */
+
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,8 +13,9 @@
 html,
 body {
   width: 100%;
-  overflow-x: hidden; /* 👈 Corta scroll horizontal */
-  font-family: Arial, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Reset básico */
@@ -74,7 +79,7 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: #4f46e5; /* azul parecido al de la imagen */
+  color: #000000; 
   font-weight: 500;
 }
 
@@ -100,7 +105,7 @@ body {
 }
 
 .hero-content {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.331);
   padding: 30px 40px;
   border-radius: 10px;
 
@@ -122,16 +127,14 @@ body {
   padding: 10px 25px;
   border: none;
   border-radius: 6px;
-
-  background: #4f46e5;
-  color: white;
+  background: #B9916C;
+  color: rgb(255, 255, 255);
   font-weight: bold;
-
   cursor: pointer;
 }
 
 .hero-content button:hover {
-  background: #4338ca;
+  background: #60503C;
 }
 
 /* CATEGORIES */
@@ -214,19 +217,28 @@ body {
   width: 100%;
   background: #f5f5f5;
 
-  padding: 50px 80px;
+  padding: 50px 40px;
 
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 
   box-sizing: border-box;
 }
 
-.footer h3,
-.footer h4 {
-  margin-bottom: 15px;
+/* TITULOS */
+
+.footer h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
+
+.footer h4 {
+  font-size: 18px;
+  margin: 15px 0 10px;
+}
+
+/* TEXTOS */
 
 .footer p {
   margin-bottom: 8px;
@@ -234,30 +246,20 @@ body {
   font-size: 14px;
 }
 
-/* Newsletter */
+/* LINKS */
 
-.footer input {
-  width: 100%;
-  padding: 10px;
+.contact-link {
+  display: block;
+
+  text-decoration: none;
+  color: #333;
+
   margin-bottom: 10px;
+  font-weight: 500;
 
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  transition: color 0.2s ease;
 }
 
-.footer button {
-  width: 100%;
-  padding: 10px;
-
-  background: #4f46e5;
-  color: white;
-  border: none;
-  border-radius: 6px;
-
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.footer button:hover {
-  background: #4338ca;
+.contact-link:hover {
+  color: #4f46e5;
 }

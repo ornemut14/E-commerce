@@ -7,9 +7,9 @@ function Hero() {
       style={{ backgroundImage: `url(${banner})` }}
     >
       <div className="hero-content">
-        <h1>QUALITY</h1>
-        <p>The Best Products</p>
-        <button>Shop Now</button>
+        <h1>🔥 20% OFF EN TODA LA TIENDA</h1>
+        <p>Solo por hoy</p>
+        <button>COMPRAR AHORA</button>
       </div>
     </section>
   );

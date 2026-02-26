@@ -2,29 +2,39 @@ function Footer() {
   return (
     <footer className="footer">
       <div>
-        <h3>MAKAO</h3>
-        <p>Miami, FL</p>
-        <p>+54 264 555 1234</p>
+        <h3>ZAFIROS</h3>
+        <p>Joyería & Accesorios</p>
+        <p>📍 San Juan, Argentina</p>
+
+        <h4>Contacto</h4>
+
+        <a
+          className="contact-link"
+          href="https://wa.me/542644362739?text=Hola%20quiero%20hacer%20una%20consulta"
+          target="_blank"
+        >
+          📱 WhatsApp 1
+        </a>
+
+        <a
+          className="contact-link"
+          href="https://wa.me/542644810270?text=Hola%20quiero%20hacer%20una%20consulta"
+          target="_blank"
+        >
+          📱 WhatsApp 2
+        </a>
       </div>
 
       <div>
-        <h4>Help</h4>
-        <p>FAQ</p>
-        <p>Shipping</p>
-        <p>Tracking</p>
-      </div>
+        <h4>Seguinos</h4>
 
-      <div>
-        <h4>About</h4>
-        <p>About us</p>
-        <p>Privacy</p>
-        <p>Contact</p>
-      </div>
-
-      <div>
-        <h4>Newsletter</h4>
-        <input type="email" placeholder="Email" />
-        <button>Send</button>
+        <a
+          className="contact-link"
+          href="https://instagram.com/zafiros_joyass"
+          target="_blank"
+        >
+          📸 Instagram
+        </a>
       </div>
     </footer>
   );
