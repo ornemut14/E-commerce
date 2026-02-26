@@ -1,10 +1,7 @@
+import Home from "./pages/Home";
+
 function App() {
-  return (
-    <div>
-      <h1>Mi Tienda Online</h1>
-      <p>Bienvenido a mi eCommerce</p>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
