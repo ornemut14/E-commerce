@@ -205,12 +205,18 @@ body {
 }
 
 .contact-link {
-  text-decoration: none;
-  color: #333;
-  display: block;
-  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.contact-link img {
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
+.contact-link img:hover {
+  transform: scale(1.15);
+  opacity: 0.8;
+}
 /* ================= TABLET ================= */
 
 @media (min-width: 768px) {
