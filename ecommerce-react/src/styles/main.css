@@ -10,15 +10,10 @@ body {
   margin: 0;
   width: 100%;
   min-height: 100vh;
-  /* ELIMINA: display: flex; */
-  /* ELIMINA: place-items: center; */
-  
-  /* Mantén esto para el texto y scroll */
   font-family: Arial, sans-serif;
   overflow-x: hidden;
 }
 
-/* Asegúrate de que tu contenedor principal ocupe el ancho */
 #root {
   width: 100%;
 }
@@ -26,20 +21,36 @@ body {
 /* ================= GLOBAL ================= */
 
 .container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 20px;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* ================= HEADER ================= */
 
 .header {
   width: 100%;
-  border-bottom: 1px solid #eee;
   background: white;
+  position: relative;
 }
 
+/* sombra solo abajo */
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.08),
+    transparent
+  );
+
+  pointer-events: none;
+}
 .header-container {
   max-width: 1400px;
   margin: auto;
@@ -174,48 +185,99 @@ body {
 
 .footer {
   width: 100%;
-  background: #f5f5f5;
+  background: white;
+  position: relative;
+}
+
+/* sombra solo arriba */
+.footer::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.08),
+    transparent
+  );
+
+  pointer-events: none;
 }
 
 .footer-container {
-  max-width: 1400px;
+  max-width: 1800px;
   margin: auto;
-
-  padding: 40px 20px;
+  padding: 35px 20px;
 
   display: flex;
-  flex-direction: column;
-  gap: 30px;
-
-  text-align: center;
+  justify-content: space-between;
+  align-items: flex-start;   /* 👈 IMPORTANTE para alinear títulos */
+  
+  text-align: left;
 }
-
-.footer h3 {
+.location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 20px;
+  color: #666;
+  margin: 0;
+}
+/* Columnas */
+.footer-left,
+.footer-center,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
+/* Título principal */
+.footer h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Subtítulos (Contacto / Seguinos) */
 .footer h4 {
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 10px 0;  /* mismo margen para todos */
 }
 
+/* Textos */
 .footer p {
   font-size: 14px;
-  color: #555;
+  color: #666;
+  margin: 0;
 }
 
+/* Links de contacto */
 .contact-link {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
 }
+
+/* Animación iconos */
 .contact-link img {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-.contact-link img:hover {
-  transform: scale(1.15);
+.contact-link:hover img {
+  transform: scale(1.1);
   opacity: 0.8;
+}
+
+.contact-link:hover {
+  color: #000;
 }
 /* ================= TABLET ================= */
 
