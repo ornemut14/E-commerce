@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from "react";
 import type { ReactNode } from "react";
+import CartNotification from "../components/CartNotification";
 
 interface CartItem {
   id: number;
@@ -21,7 +22,7 @@ interface CartContextType {
   addToCart: (product: Product) => void;
   removeFromCart: (id: number) => void;
   getTotal: () => number;
-  getTotalItems: () => number; // ✅ contador total de productos
+  getTotalItems: () => number;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -32,6 +33,7 @@ interface CartProviderProps {
 
 export const CartProvider = ({ children }: CartProviderProps) => {
   const [cart, setCart] = useState<CartItem[]>([]);
+  const [showNotification, setShowNotification] = useState(false);
 
   // ✅ Agregar producto
   const addToCart = (product: Product) => {
@@ -48,9 +50,16 @@ export const CartProvider = ({ children }: CartProviderProps) => {
 
       return [...prev, { ...product, quantity: 1 }];
     });
+
+    // mostrar notificación
+    setShowNotification(true);
+
+    setTimeout(() => {
+      setShowNotification(false);
+    }, 2000);
   };
 
-  // ✅ Quitar SOLO una unidad
+  // ✅ Quitar una unidad
   const removeFromCart = (id: number) => {
     setCart((prev) =>
       prev
@@ -63,7 +72,7 @@ export const CartProvider = ({ children }: CartProviderProps) => {
     );
   };
 
-  // ✅ Calcular total $
+  // ✅ Total $
   const getTotal = () => {
     return cart.reduce(
       (acc, item) => acc + item.price * item.quantity,
@@ -71,7 +80,7 @@ export const CartProvider = ({ children }: CartProviderProps) => {
     );
   };
 
-  // ✅ Calcular total de productos (para el circulito)
+  // ✅ Total productos
   const getTotalItems = () => {
     return cart.reduce(
       (acc, item) => acc + item.quantity,
@@ -86,10 +95,16 @@ export const CartProvider = ({ children }: CartProviderProps) => {
         addToCart,
         removeFromCart,
         getTotal,
-        getTotalItems, // 👈 agregado
+        getTotalItems,
       }}
     >
       {children}
+
+      {/* Notificación */}
+      <CartNotification
+        show={showNotification}
+        message="Tu producto se agregó al carrito "
+      />
     </CartContext.Provider>
   );
 };
