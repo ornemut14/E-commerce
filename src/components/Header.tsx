@@ -79,10 +79,7 @@ function Header() {
               )}
             </button>
 
-            {/* 👤 Login */}
-            <Link to="/login">
-              <img src={personIcon} alt="Login" />
-            </Link>
+            
           </nav>
         </div>
       </header>
