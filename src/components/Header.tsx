@@ -4,7 +4,6 @@ import { useCart } from "../context/CartContext";
 import CartModal from "./CartModal";
 
 import cartIcon from "../assets/cart-svgrepo-com.svg";
-import personIcon from "../assets/person-circle-svgrepo-com.svg";
 import shopIcon from "../assets/shopping-bag-svgrepo-com.svg";
 import homeIcon from "../assets/home-svgrepo-com.svg";
 import searchIcon from "../assets/search-svgrepo-com.svg";
