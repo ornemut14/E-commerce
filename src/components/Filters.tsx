@@ -30,7 +30,7 @@ function Filters({
         <h3>Categorías</h3>
 
         <div className="filter-group">
-          {["Anillos", "Cadenas", "Pulseras", "Aros"].map((item) => (
+          {["Anillos", "Cadenas", "Pulseras", "Aros","Dijes"].map((item) => (
             <button
               key={item}
               className={`filter-btn ${

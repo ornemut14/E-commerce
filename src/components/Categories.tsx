@@ -40,7 +40,15 @@ function Categories() {
             Cadenas
           </div>
         </SwiperSlide>
-
+        <SwiperSlide>
+          <div
+            className="category-card"
+            style={{ backgroundImage: `url(${necklace})` }}
+            onClick={() => goToCategory("cadenas")}
+          >
+            Dijes
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
           <div
             className="category-card"
