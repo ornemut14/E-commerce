@@ -92,26 +92,38 @@ html, body {
 
 .clear-filters-icon {
   position: absolute;
-  top: 0;
-  right: 0;
-
-  background: transparent;
+  top: 10px;
+  right: 10px;
+  background: white;
   border: none;
   cursor: pointer;
-  padding: 4px;
+  padding: 6px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .clear-filters-icon img {
-  width: 22px;
-  height: 22px;
-  opacity: 0.7;
-  transition: 0.2s ease;
+  width: 18px;
+  height: 18px;
 }
 
 .clear-filters-icon:hover img {
   opacity: 1;
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+
+  .clear-filters-icon {
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 999;
+  }
+
+}
+
 /* ================= RESPONSIVE ================= */
 
 /* Notebook */
