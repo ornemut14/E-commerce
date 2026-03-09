@@ -180,7 +180,7 @@ export const products = [
     name: "Pulsera Ojo Turco",
     price: 2500,
     category: "Pulseras",
-    material: "Fantasía",
+    material: "Fantasia",
     image: pulseraojo,
   },
       {
@@ -188,7 +188,7 @@ export const products = [
     name: "Pulsera Corazon Fantasia",
     price: 2500,
     category: "Pulseras",
-    material: "Fantasía",
+    material: "Fantasia",
     image: pulseracora,
   },
       {
@@ -276,7 +276,7 @@ export const products = [
     name: "Pulsera Estrella De Cristal y perlitas",
     price: 3000,
     category: "Pulseras",
-    material: "Fantasía",
+    material: "Fantasia",
     image: pulseraestrella,
   },
           {
@@ -284,7 +284,7 @@ export const products = [
     name: "Pulsera Transparente De Cristal",
     price: 3000,
     category: "Pulseras",
-    material: "Fantasía",
+    material: "Fantasia",
     image: pulseratransparentecristal,
   },
           {
@@ -292,7 +292,7 @@ export const products = [
     name: "Pulsera Negra De Cristal",
     price: 3000,
     category: "Pulseras",
-    material: "Fantasía",
+    material: "Fantasia",
     image: pulseranegracristal,
   },
           {
@@ -300,7 +300,7 @@ export const products = [
     name: "Pulsera Roja De Cristal",
     price: 3000,
     category: "Pulseras",
-    material: "Fantasía",
+    material: "Fantasia",
     image: pulserarojacristal,
   },
              {
