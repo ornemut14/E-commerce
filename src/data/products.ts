@@ -232,7 +232,7 @@ export const products = [
     image: cadenabolitas,
   },
       {
-    id: 24,
+    id: 23,
     name: "Cadena Force Acero Blanco",
     price: 4500,
     category: "Cadenas",
@@ -240,7 +240,7 @@ export const products = [
     image: cadenaforce,
   },
       {
-    id: 25,
+    id: 24,
     name: "Cadena Cola de rata Acero Blanco",
     price: 4400,
     category: "Cadenas",
@@ -248,7 +248,7 @@ export const products = [
     image: coladerata,
   },
       {
-    id: 26,
+    id: 25,
     name: "Pulsera chata con bolitas Acero Blanco",
     price: 5000,
     category: "Pulseras",
@@ -256,7 +256,7 @@ export const products = [
     image: pulserachatabolitas,
   },
       {
-    id: 27,
+    id: 26,
     name: "Cadena Cola de rata con bolitas Acero Blanco ",
     price: 6000,
     category: "Cadenas",
@@ -264,7 +264,7 @@ export const products = [
     image: colarataboligorda,
   },
         {
-    id: 28,
+    id: 27,
     name: "Collar De Perlas Blanco y negro",
     price: 3000,
     category: "Cadenas",
@@ -272,7 +272,7 @@ export const products = [
     image: collarperlas,
   },
           {
-    id: 29,
+    id: 28,
     name: "Pulsera Estrella De Cristal y perlitas",
     price: 3000,
     category: "Pulseras",
@@ -280,7 +280,7 @@ export const products = [
     image: pulseraestrella,
   },
           {
-    id: 30,
+    id: 29,
     name: "Pulsera Transparente De Cristal",
     price: 3000,
     category: "Pulseras",
@@ -288,7 +288,7 @@ export const products = [
     image: pulseratransparentecristal,
   },
           {
-    id: 31,
+    id: 30,
     name: "Pulsera Negra De Cristal",
     price: 3000,
     category: "Pulseras",
@@ -296,7 +296,7 @@ export const products = [
     image: pulseranegracristal,
   },
           {
-    id: 32,
+    id: 31,
     name: "Pulsera Roja De Cristal",
     price: 3000,
     category: "Pulseras",
@@ -304,7 +304,7 @@ export const products = [
     image: pulserarojacristal,
   },
              {
-    id: 33,
+    id: 32,
     name: "Tanza Corazón Plata 925",
     price: 15000,
     category: "Cadenas",
@@ -312,7 +312,7 @@ export const products = [
     image: tanzacorazon,
   },
           {
-    id: 34,
+    id: 33,
     name: "Tanza Mariposa Plata 925",
     price: 12000,
     category: "Cadenas",
@@ -320,7 +320,7 @@ export const products = [
     image: tanzamariposa,
   },
           {
-    id: 35,
+    id: 34,
     name: "Abridor Rayo Plata 925",
     price: 6000,
     category: "Aros",
@@ -328,7 +328,7 @@ export const products = [
     image: abridorrayo,
   },
           {
-    id: 36,
+    id: 35,
     name: "Abridor perlita Blanca Plata 925",
     price: 6000,
     category: "Aros",
@@ -336,7 +336,7 @@ export const products = [
     image: abridorblanco,
   },
           {
-    id: 37,
+    id: 36,
     name: "Abridor flor transparente Plata 925",
     price: 6000,
     category: "Aros",
@@ -344,7 +344,7 @@ export const products = [
     image: abridortransparente,
   },
           {
-    id: 38,
+    id: 37,
     name: "Abridor circulo Plata 925",
     price: 6000,
     category: "Aros",
@@ -352,7 +352,7 @@ export const products = [
     image: abridorcomun,
   },
           {
-    id: 39,
+    id: 38,
     name: "Abridor bolas arenadas Plata 925",
     price: 6000,
     category: "Aros",
@@ -360,7 +360,7 @@ export const products = [
     image: abridorbolasarenadas,
   },
           {
-    id: 40,
+    id: 39,
     name: "Abridor estrella de mar plata 925",
     price: 6000,
     category: "Aros",
@@ -368,7 +368,7 @@ export const products = [
     image: abridorestrella,
   },
           {
-    id: 41,
+    id: 40,
     name: "Abridor tres estrellas Plata 925",
     price: 6000,
     category: "Aros",
@@ -376,7 +376,7 @@ export const products = [
     image: tresestrellas,
   },
         {
-    id: 42,
+    id: 41,
     name: "Pasante Captus Acero dorado",
     price: 5000,
     category: "Aros",
@@ -384,7 +384,7 @@ export const products = [
     image: captus,
   },
           {
-    id: 43,
+    id: 42,
     name: "Abridor Stras Plata 925",
     price: 6000,
     category: "Aros",
@@ -392,7 +392,7 @@ export const products = [
     image: abridores,
   },
           {
-    id: 44,
+    id: 43,
     name: "Abridor bolita abstracta Plata 925",
     price: 6000,
     category: "Aros",
@@ -400,7 +400,7 @@ export const products = [
     image: abridorplateado,
   },
           {
-    id: 45,
+    id: 44,
     name: "Abridor Huellita de perro Plata 925",
     price: 6000,
     category: "Aros",
@@ -408,7 +408,7 @@ export const products = [
     image: abridorhuellita,
   },
           {
-    id: 46,
+    id: 45,
     name: "Abridor Flecha Plata 925",
     price: 6000,
     category: "Aros",
@@ -416,7 +416,7 @@ export const products = [
     image: abridorflecha,
   },
           {
-    id: 47,
+    id: 46,
     name: "Pasante Gota Plata 925",
     price: 6000,
     category: "Aros",
@@ -424,7 +424,7 @@ export const products = [
     image: pasantegota,
   },
           {
-    id: 48,
+    id: 47,
     name: "Argollitas 3 Cubic Plata 925",
     price: 6000,
     category: "Aros",
@@ -432,7 +432,7 @@ export const products = [
     image: argollatrescubic,
   },
           {
-    id: 49,
+    id: 48,
     name: " Aros Triángulos con stras Plata 925",
     price: 6000,
     category: "Aros",
@@ -440,7 +440,7 @@ export const products = [
     image: triangulos,
   },
           {
-    id: 50,
+    id: 49,
     name: "Bolitas arenadas plata 925",
     price: 10000,
     category: "Aros",
@@ -448,7 +448,7 @@ export const products = [
     image: bolitasarenadas,
   },
           {
-    id: 51,
+    id: 50,
     name: "Argollitas Corazón con Nacar Plata 925", 
     price: 11000,
     category: "Aros",
@@ -456,7 +456,7 @@ export const products = [
     image: argollacoranacar,
   },
           {
-    id: 52,
+    id: 51,
     name: "Argollitas Canasta Plata 925",
     price: 11000,
     category: "Aros",
@@ -464,7 +464,7 @@ export const products = [
     image: argollacanasta,
   },
           {
-    id: 53,
+    id: 52,
     name: "Argollitas Retorcidas Plata 925",
     price: 10000,
     category: "Aros",
@@ -472,7 +472,7 @@ export const products = [
     image: argollasretorcidas,
   },
           {
-    id: 54,
+    id: 53,
     name: "Pasantes con hojitas y stras Plata 925",
     price: 14000,
     category: "Aros",
@@ -480,7 +480,7 @@ export const products = [
     image: hojitas,
   },
           {
-    id: 55,
+    id: 54,
     name: "Cuff simple stras Plata 925",
     price: 11000,
     category: "Aros",
@@ -488,7 +488,7 @@ export const products = [
     image: cuffsimple,
   },
           {
-    id: 56,
+    id: 55,
     name: "Cuff Doble Plata 925",
     price: 12000,
     category: "Aros",
@@ -496,7 +496,7 @@ export const products = [
     image: cuffdoble,
   },
           {
-    id: 57,
+    id: 56,
     name: "Argollitas Bolitas Plata 925",
     price: 5000,
     category: "Aros",
@@ -504,7 +504,7 @@ export const products = [
     image: argollasbolitas,
   },
           {
-    id: 58,
+    id: 57,
     name: "Argollitas Circulitos Plata 925",
     price: 5000,
     category: "Aros",
@@ -512,7 +512,7 @@ export const products = [
     image: argollascirculitos,
   },
           {
-    id: 60,
+    id: 58,
     name: "Aros aguja de Corazón rosa",
     price: 5000,
     category: "Aros",
@@ -520,7 +520,7 @@ export const products = [
     image: coraagujarosa,
   },
           {
-    id: 61,
+    id: 59,
     name: "Dije de la virgen",
     price: 10000,
     category: "Dijes",
@@ -528,7 +528,7 @@ export const products = [
     image: dijevirgen,
   },
           {
-    id: 62,
+    id: 60,
     name: "Dije de San Benito",
     price: 10000,
     category: "Dijes",
@@ -536,7 +536,7 @@ export const products = [
     image: dijesanbenito,
   },
           {
-    id: 63,
+    id: 61,
     name: "Dije tornasol",
     price: 3000,
     category: "Dijes",
@@ -544,7 +544,7 @@ export const products = [
     image: dijetornasol,
   },
           {
-    id: 64,
+    id: 62,
     name: "Aros aguja de Corazón blanco",
     price: 5000,
     category: "Aros",
@@ -552,7 +552,7 @@ export const products = [
     image: coraagujablanco,
   },
           {
-    id: 65,
+    id: 63,
     name: "Pasantes Flor de Acero ",
     price: 1500,
     category: "Aros",
@@ -560,7 +560,7 @@ export const products = [
     image: florpasante,
   },
           {
-    id: 66,
+    id: 64,
     name: "Solitario Estrella de Acero Blanco",
     price: 1500,
     category: "Aros",
@@ -568,7 +568,7 @@ export const products = [
     image: solitarioestrella,
   },
           {
-    id: 67,
+    id: 65,
     name: "Pasantes Estrella de Acero Blanco",
     price: 3000,
     category: "Aros",
