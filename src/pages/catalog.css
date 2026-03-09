@@ -28,9 +28,11 @@ html, body {
 }
 
 .filters h3 {
+  display: block;
   font-size: 16px;
   font-weight: 600;
-  margin: 30px 0 15px;
+  margin: 20px 0 10px;
+  color: #000;
 }
 
 .filter-group {
@@ -163,7 +165,7 @@ html, body {
 
   /* Ocultar contenido */
   .filters-content {
-    display: none;
+    display: block;
   }
 
   .filters.active .filters-content {
