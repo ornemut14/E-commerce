@@ -165,7 +165,7 @@ html, body {
 
   /* Ocultar contenido */
   .filters-content {
-    display: block;
+    display: none;
   }
 
   .filters.active .filters-content {
