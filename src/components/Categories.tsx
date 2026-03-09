@@ -5,9 +5,11 @@ import { useNavigate } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import necklace from "../assets/necklace.jpg";
-import ring from "../assets/ring.jpg";
-import earrings from "../assets/earrings.jpg";
+import aros from "../assets/aros.png";
+import ring from "../assets/ring.png";
+import cadenita from "../assets/cadenita.png";
+import pulsera from "../assets/pulsera.png";
+import dijes from "../assets/dije.png";
 
 function Categories() {
   const navigate = useNavigate();
@@ -34,7 +36,16 @@ function Categories() {
         <SwiperSlide>
           <div
             className="category-card"
-            style={{ backgroundImage: `url(${necklace})` }}
+            style={{ backgroundImage: `url(${dijes})` }}
+            onClick={() => goToCategory("dijes")}
+          >
+            Dijes
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="category-card"
+            style={{ backgroundImage: `url(${cadenita})` }}
             onClick={() => goToCategory("cadenas")}
           >
             Cadenas
@@ -43,16 +54,7 @@ function Categories() {
         <SwiperSlide>
           <div
             className="category-card"
-            style={{ backgroundImage: `url(${necklace})` }}
-            onClick={() => goToCategory("cadenas")}
-          >
-            Dijes
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            className="category-card"
-            style={{ backgroundImage: `url(${earrings})` }}
+            style={{ backgroundImage: `url(${aros})` }}
             onClick={() => goToCategory("aros")}
           >
             Aros
@@ -71,7 +73,7 @@ function Categories() {
           <SwiperSlide>
           <div
             className="category-card"
-            style={{ backgroundImage: `url(${earrings})` }}
+            style={{ backgroundImage: `url(${pulsera})` }}
             onClick={() => goToCategory("pulseras")}
           >
             Pulseras
