@@ -20,7 +20,6 @@ import pulseraeslabon from "./images/pulseraeslabon.jpg";
 import cadenatres from "./images/cadenatres.jpg";
 import cadenaargollas from "./images/cadenaargollas.jpg";
 import cadenabolitas from "./images/cadenabolitas.jpg";
-import coladeratabolitas from "./images/coladeratabolitas.jpg";
 import cadenaforce from "./images/cadenaforce.jpg";
 import coladerata from "./images/coladerata.jpg";
 import pulserachatabolitas from "./images/pulserachatabolitas.jpg";
@@ -56,7 +55,6 @@ import cuffsimple from "./images/cuffsimple.jpg";
 import cuffdoble from "./images/cuffdoble.jpg";
 import argollasbolitas from "./images/argollasbolitas.jpg";
 import argollascirculitos from "./images/argollascirculitos.jpg";
-import argollasreto from "./images/argollasreto.jpg";
 import coraagujarosa from "./images/coraagujarosa.jpg";
 import dijevirgen from "./images/dijevirgen.jpg";
 import dijesanbenito from "./images/dijesanbenito.jpg";
@@ -232,14 +230,6 @@ export const products = [
     category: "Cadenas",
     material: "Acero Blanco",
     image: cadenabolitas,
-  },
-      {
-    id: 23,
-    name: "Cadena Cola de rata con bolitas",
-    price: 6000,
-    category: "Cadenas",
-    material: "Acero Blanco",
-    image: coladeratabolitas,
   },
       {
     id: 24,
@@ -520,14 +510,6 @@ export const products = [
     category: "Aros",
     material: "Plata 925",
     image: argollascirculitos,
-  },
-          {
-    id: 59,
-    name: "Argollitas Torzadas Plata 925",
-    price: 5000,
-    category: "Aros",
-    material: "Plata 925",
-    image: argollasreto,
   },
           {
     id: 60,
