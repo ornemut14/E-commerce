@@ -167,37 +167,6 @@ body {
   padding: 20px;
 }
 
-.hero-content {
-  background: rgba(255, 255, 255, 0.9);
-  padding: 25px;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 350px;
-  text-align: center;
-}
-
-.hero-content h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color:black;
-}
-
-.hero-content p {
-  font-size: 15px;
-  margin-bottom: 15px;
-  color: #555;
-}
-
-.hero-content button {
-  width: 100%;
-  padding: 12px;
-  border: none;
-  border-radius: 6px;
-  background: #b9916c;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}
 
 /* ================= CATEGORIES ================= */
 
