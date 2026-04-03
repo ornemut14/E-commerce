@@ -1,3 +1,63 @@
+import anillo from "./images/anillo.jpg";
+import anilloPinche from "./images/anillo-pinche.jpg";
+import anilloFlor from "./images/anillo-flor.jpg";
+import anilloMariposa from "./images/anillo-mariposa.jpg";
+import arosAcero from "./images/aros-acero.jpg";
+import anilloCirculos from "./images/anillo-circulos.jpg";
+import anilloflorcolgante from "./images/anilloflorcolgante.jpg";
+import aroscuadrados from "./images/aroscuadrados.jpg";
+import cuadrados from "./images/cuadrados.jpg";
+import arosrayo from "./images/arosrayos.jpg";
+import cporazonbordo from "./images/cporazonbordoystras.jpg";
+import dijecora from "./images/dijecorazon.jpg";
+import pasantedore from "./images/pasantesdorado.jpg";
+import pulseraojo from "./images/pulseraojo.jpg";
+import pulseracora from "./images/pulseracora.jpg";
+import cadenauni from "./images/cadenauniforme.jpg";
+import pulseraeslabon from "./images/pulseraeslabon.jpg";
+import cadenatres from "./images/cadenatres.jpg";
+import cadenaargollas from "./images/cadenaargollas.jpg";
+import cadenaforce from "./images/cadenaforce.jpg";
+import coladerata from "./images/coladerata.jpg";
+import collarperlas from "./images/collarperlas.jpg";
+import pulseraestrella from "./images/pulseraestrella.jpg";
+import pulseratransparentecristal from "./images/pulseratransparentecristal.jpg";
+import pulseranegracristal from "./images/pulseranegracristal.jpg";
+import pulserarojacristal from "./images/pulserarojacristal.jpg";
+import tanzacorazon from "./images/tanzacorazon.jpg";
+import tanzamariposa from "./images/tanzamariposa.jpg";
+import abridorrayo from "./images/abridorrayo.jpg";
+import abridorblanco from "./images/abridorblanco.jpg";
+import abridortransparente from "./images/abridortransparente.jpg";
+import abridorcomun from "./images/abridorcomun.jpg";
+import abridorbolasarenadas from "./images/abridorbolasarenadas.jpg";
+import abridorestrella from "./images/abridorestrella.jpg";
+import tresestrellas from "./images/3estrellas.jpg";
+import captus from "./images/pasantescaptus.jpg";
+import abridorplateado from "./images/abridorplateado.jpg";
+import abridorhuellita from "./images/abridorhuellita.jpg";
+import abridorflecha from "./images/abridorflecha.jpg";
+import pasantegota from "./images/pasantegota.jpg";
+import argollatrescubic from "./images/argollatrescubic.jpg";
+import triangulos from "./images/triangulos.jpg";
+import bolitasarenadas from "./images/bolitasarenadas.jpg";
+import argollacoranacar from "./images/argollacoranacar.jpg";
+import argollacanasta from "./images/argollacanasta.jpg"; 
+import argollasretorcidas from "./images/argollasretorcidas.jpg";
+import hojitas from "./images/hojitas.jpg";
+import cuffsimple from "./images/cuffsimple.jpg";
+import cuffdoble from "./images/cuffdoble.jpg";
+import argollasbolitas from "./images/argollasbolitas.jpg";
+import argollascirculitos from "./images/argollascirculitos.jpg";
+import coraagujarosa from "./images/coraagujarosa.jpg";
+import dijevirgen from "./images/dijevirgen.jpg";
+import dijesanbenito from "./images/dijesanbenito.jpg";
+import dijetornasol from "./images/dijetornasol.jpg";
+import coraagujablanco from "./images/coraagujablanco.jpg";
+import florpasante from "./images/florpasante.jpg";
+import solitarioestrella from "./images/solitarioestrella.jpg";
+import pasanteestrella from "./images/pasanteestrella.jpg";
+
 export const products = [
 
 { id: 1, name: "Anillo stras", price: 5600, category: "Anillos", material: "Acero Blanco", image: anillo },
@@ -36,29 +96,26 @@ export const products = [
 { id: 34, name: "Abridor estrella de mar plata 925", price: 6000, category: "Aros", material: "Plata 925", image: abridorestrella },
 { id: 35, name: "Abridor tres estrellas Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: tresestrellas },
 { id: 36, name: "Pasante Captus Acero dorado", price: 5000, category: "Aros", material: "Acero Dorado", image: captus },
-{ id: 37, name: "Abridor Stras Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: abridores },
-{ id: 38, name: "Abridor bolita abstracta Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: abridorplateado },
-{ id: 39, name: "Abridor Huellita de perro Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: abridorhuellita },
-{ id: 40, name: "Abridor Flecha Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: abridorflecha },
-{ id: 41, name: "Pasante Gota Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: pasantegota },
-{ id: 42, name: "Argollitas 3 Cubic Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: argollatrescubic },
-{ id: 43, name: "Aros Triángulos con stras Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: triangulos },
-{ id: 44, name: "Bolitas arenadas plata 925", price: 10000, category: "Aros", material: "Plata 925", image: bolitasarenadas },
-{ id: 45, name: "Argollitas Corazón con Nacar Plata 925", price: 11000, category: "Aros", material: "Plata 925", image: argollacoranacar },
-{ id: 46, name: "Argollitas Canasta Plata 925", price: 11000, category: "Aros", material: "Plata 925", image: argollacanasta },
-{ id: 47, name: "Argollitas Retorcidas Plata 925", price: 10000, category: "Aros", material: "Plata 925", image: argollasretorcidas },
-{ id: 48, name: "Pasantes con hojitas y stras Plata 925", price: 14000, category: "Aros", material: "Plata 925", image: hojitas },
-{ id: 49, name: "Cuff simple stras Plata 925", price: 11000, category: "Aros", material: "Plata 925", image: cuffsimple },
-{ id: 50, name: "Cuff Doble Plata 925", price: 12000, category: "Aros", material: "Plata 925", image: cuffdoble },
-{ id: 51, name: "Argollitas Bolitas Plata 925", price: 5000, category: "Aros", material: "Plata 925", image: argollasbolitas },
-{ id: 52, name: "Argollitas Circulitos Plata 925", price: 5000, category: "Aros", material: "Plata 925", image: argollascirculitos },
-{ id: 53, name: "Aros aguja de Corazón rosa", price: 5000, category: "Aros", material: "Acero Blanco", image: coraagujarosa },
+{ id: 37, name: "Abridor bolita abstracta Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: abridorplateado },
+{ id: 38, name: "Abridor Huellita de perro Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: abridorhuellita },
+{ id: 39, name: "Abridor Flecha Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: abridorflecha },
+{ id: 40, name: "Pasante Gota Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: pasantegota },
+{ id: 41, name: "Argollitas 3 Cubic Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: argollatrescubic },
+{ id: 42, name: "Aros Triángulos con stras Plata 925", price: 6000, category: "Aros", material: "Plata 925", image: triangulos },
+{ id: 43, name: "Bolitas arenadas plata 925", price: 10000, category: "Aros", material: "Plata 925", image: bolitasarenadas },
+{ id: 44, name: "Argollitas Corazón con Nacar Plata 925", price: 11000, category: "Aros", material: "Plata 925", image: argollacoranacar },
+{ id: 45, name: "Argollitas Canasta Plata 925", price: 11000, category: "Aros", material: "Plata 925", image: argollacanasta },
+{ id: 46, name: "Argollitas Retorcidas Plata 925", price: 10000, category: "Aros", material: "Plata 925", image: argollasretorcidas },
+{ id: 47, name: "Pasantes con hojitas y stras Plata 925", price: 14000, category: "Aros", material: "Plata 925", image: hojitas },
+{ id: 48, name: "Cuff simple stras Plata 925", price: 11000, category: "Aros", material: "Plata 925", image: cuffsimple },
+{ id: 49, name: "Cuff Doble Plata 925", price: 12000, category: "Aros", material: "Plata 925", image: cuffdoble },
+{ id: 50, name: "Argollitas Bolitas Plata 925", price: 5000, category: "Aros", material: "Plata 925", image: argollasbolitas },
+{ id: 51, name: "Argollitas Circulitos Plata 925", price: 5000, category: "Aros", material: "Plata 925", image: argollascirculitos },
+{ id: 52, name: "Aros aguja de Corazón rosa", price: 5000, category: "Aros", material: "Acero Blanco", image: coraagujarosa },
 { id: 54, name: "Dije de la virgen", price: 10000, category: "Dijes", material: "Plata 925", image: dijevirgen },
 { id: 55, name: "Dije de San Benito", price: 10000, category: "Dijes", material: "Plata 925", image: dijesanbenito },
 { id: 56, name: "Dije tornasol", price: 3000, category: "Dijes", material: "Plata 925", image: dijetornasol },
 { id: 57, name: "Aros aguja de Corazón blanco", price: 5000, category: "Aros", material: "Acero Blanco", image: coraagujablanco },
-{ id: 58, name: "Pasantes Flor de Acero", price: 1500, category: "Aros", material: "Acero Blanco", image: florpasante },
+{ id: 58, name: "Pasantes Flor de Acero ", price: 1500, category: "Aros", material: "Acero Blanco", image: florpasante },
 { id: 59, name: "Solitario Estrella de Acero Blanco", price: 1500, category: "Aros", material: "Acero Blanco", image: solitarioestrella },
-{ id: 60, name: "Pasantes Estrella de Acero Blanco", price: 3000, category: "Aros", material: "Acero Blanco", image: pasanteestrella }
-
-];
+{ id: 60, name: "Pasantes Estrella de Acero Blanco", price: 3000, category: "Aros", material: "Acero Blanco", image: pasanteestrella },];
